@@ -226,7 +226,8 @@ button {
 }
 
 .logo {
-    width: 75%;
+    width: 0.5px;
+    height:0.5px;
     float: left;
 }
 
