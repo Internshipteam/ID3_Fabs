@@ -226,7 +226,7 @@ button {
 }
 
 .logo {
-    width: 5%;
+    width: 75%;
     float: left;
 }
 
@@ -1086,6 +1086,4 @@ button {
 .navbar {
     padding: .5rem 0px;
 }
-.col-md-6 .image_1{
-width:250%;
-shape:round;}
+
