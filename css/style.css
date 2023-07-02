@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+n/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
@@ -77,6 +77,7 @@ h6 {
     color: #111111;
     margin: 0
 }
+
 
 h1 {
     font-size: 24px
@@ -157,9 +158,10 @@ a,
     transition: all .3s ease-in-out;
 }
 
-img {
+#imgs {
     max-width: 100%;
     height: auto;
+   
 }
 
  :focus {
@@ -211,8 +213,7 @@ button {
     cursor: pointer;
 }
 
-.full {
-    float: left;
+.full {float: left;
     width: 100%;
 }
 
@@ -221,24 +222,24 @@ button {
     padding-bottom: 0px;
 }
 
-.padding_0 {
+h.padding_0 {
     padding: 0px;
 }
 
 .logo {
-    width: 0.5px;
-    height:0.5px;
+    width: 15%;
     float: left;
 }
 
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-color: #0000b3;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
 }
+//background-image: url(../images/banner-bg.jfif);
 
 .bg-dark {
     background-color: transparent !important;
@@ -304,6 +305,14 @@ button {
     border: 2px solid #ffffff;
     border-radius: 30px;
     padding: 9px 0px;
+}
+
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
 }
 
 .book_bt a:hover {
@@ -479,7 +488,7 @@ button {
 .icon_1 {
     width: 50px;
     margin: 0 auto;
-    background-image: url(../images/icon-1.png);
+    background-image: url(../images/icon1.png);
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -490,7 +499,7 @@ button {
 .icon_2 {
     width: 50px;
     margin: 0 auto;
-    background-image: url(../images/icon-2.png);
+    background-image: url(../images/icon2.png);
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -501,7 +510,7 @@ button {
 .icon_3 {
     width: 40px;
     margin: 0 auto;
-    background-image: url(../images/icon-3.png);
+    background-image: url(../images/icon3.png);
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -512,7 +521,7 @@ button {
 .icon_4 {
     width: 50px;
     margin: 0 auto;
-    background-image: url(../images/icon-4.png);
+    background-image: url(../images/icon4.png);
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -523,7 +532,17 @@ button {
 .icon_5 {
     width: 50px;
     margin: 0 auto;
-    background-image: url(../images/icon-5.png);
+    background-image: url(../images/icon5.png);
+    height: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: inline-block;
+}
+.icon_6 {
+    width: 50px;
+    margin: 0 auto;
+    background-image: url(../images/icon6.png);
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -557,7 +576,7 @@ button {
     padding: 10px;
 }
 
-.beds_section.active {
+.beds_section:hover.active {
     background-color: #ffffff;
     box-shadow: 0px 1px 10px 1px #888888;
 }
@@ -576,13 +595,17 @@ button {
     text-align: center;
     text-transform: uppercase;
 }
-
+.cards{
+    padding:10px
+}
 .image_2 {
-    width: 90%;
+    width: 240px;
+    height: 240px;
     float: left;
     text-align: center;
     min-height: 280px;
-    padding-top: 40px;
+    max-width:280px;
+    margin-left: 50px;
 }
 
 .seemore_bt {
@@ -912,13 +935,11 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #0000b3;
     height: auto;
 }
 
 .dummy_text {
-    width: 65%;
-    float: left;
     font-size: 16px;
     color: #b6b6b6;
     margin-left: 0px;
@@ -963,7 +984,6 @@ button {
     margin: 0px;
     padding: 0px;
 }
-
 .social_icon li {
     float: left;
     padding: 20px 9px 0px 0px;
@@ -989,7 +1009,6 @@ button {
 .copyright_text a {
     color: #ffffff;
 }
-
 .copyright_text a:hover {
     color: #878686;
 }
@@ -1074,6 +1093,10 @@ button {
     border-radius: 30px;
 }
 
+.web {
+   border-radius:50%;
+}
+
 .map_main {
     width: 100%;
     float: left;
@@ -1087,4 +1110,7 @@ button {
 .navbar {
     padding: .5rem 0px;
 }
-
+.fa-youtube {
+    background:white;
+    color: blue;
+}
