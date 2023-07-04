@@ -227,7 +227,8 @@ h.padding_0 {
 }
 
 .logo {
-    width: 15%;
+    width: 0.5px;
+    height:0.5px;
     float: left;
 }
 
