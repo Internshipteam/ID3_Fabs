@@ -227,8 +227,8 @@ h.padding_0 {
 }
 
 .logo {
-    width: 0.5px;
-    height:0.5px;
+    width: 0.05px;
+    height:0.05px;
     float: left;
 }
 
@@ -236,7 +236,7 @@ h.padding_0 {
     width: 100%;
     float: left;
     background-color: #0000b3;
-    height: auto;
+    height: 10%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
